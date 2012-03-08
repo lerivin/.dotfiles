@@ -10,7 +10,7 @@ general productivity improvements.
 To install, you will be cloning this repository into ~/.dotfiles.
 
 	cd ~
-	git clone git@github.com:kevinelliott/.dotfiles.git
+	git clone git@github.com:jamespolanco/.dotfiles.git
 
 Then you will activate the .dotfiles by including the following line to ~/.bash_profile
 
