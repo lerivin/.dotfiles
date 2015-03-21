@@ -31,3 +31,6 @@ alias dbdump=dbDump
 alias memcached-start="launchctl load ~/Library/LaunchAgents/homebrew.mxcl.memcached.plist"
 alias memcached-stop="launchctl unload ~/Library/LaunchAgents/homebrew.mxcl.memcached.plist"
 alias memcached-restart="launchctl unload ~/Library/LaunchAgents/homebrew.mxcl.memcached.plist;launchctl load ~/Library/LaunchAgents/homebrew.mxcl.memcached.plist"
+alias hosts='sudo subl /private/etc/hosts'
+alias weinre='/usr/local/bin/weinre --boundHost -all-'
+alias dbsetup='rake db:drop db:create db:migrate db:seed db:test:prepare --trace'
