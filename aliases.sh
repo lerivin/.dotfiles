@@ -34,3 +34,7 @@ alias memcached-restart="launchctl unload ~/Library/LaunchAgents/homebrew.mxcl.m
 alias hosts='sudo subl /private/etc/hosts'
 alias weinre='/usr/local/bin/weinre --boundHost -all-'
 alias dbsetup='rake db:drop db:create db:migrate db:seed db:test:prepare --trace'
+alias jekyll='bundle exec jekyll serve'
+
+alias ll='ls -als'
+alias lt='ls -alst'

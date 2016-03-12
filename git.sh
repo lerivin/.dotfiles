@@ -13,4 +13,11 @@ if [ -n `which git` ]; then
   alias gco='git checkout'
   alias gpatch='git diff master -p'
   alias gitrm="git status | grep deleted | awk '{print $3}' | xargs git rm"
+  alias grt=' git reset --soft HEAD~'
+
+  if [ -f ./.git-completion.bash ]; then
+    . ./.git-completion.bash
+  fi
+
+  source ./.bash_git
 fi

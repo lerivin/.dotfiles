@@ -1,4 +1,4 @@
-export DF_BASE_PATH=~/Repositories/.dotfiles
+export DF_BASE_PATH=~/repos/.dotfiles
 export JAVA_HOME="/System/Library/Frameworks/JavaVM.framework/Home"
 
 source $DF_BASE_PATH/aliases.sh

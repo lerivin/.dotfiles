@@ -1,4 +1,5 @@
 if [ -n `which psql` ]; then
-  alias psql-start='pg_ctl -D /usr/local/var/postgres start'
-  alias psql-stop='pg_ctl -D /usr/local/var/postgres stop -s -m fast'
+  alias psql-start='brew services start postgres'
+  alias psql-stop='brew services stop postgres'
+  alias psql-restart='brew services restart postgres'
 fi
