@@ -28,13 +28,13 @@ alias dbr=dbReset
 alias dbc=dbClean
 alias dbimport=dbImport
 alias dbdump=dbDump
-alias memcached-start="launchctl load ~/Library/LaunchAgents/homebrew.mxcl.memcached.plist"
-alias memcached-stop="launchctl unload ~/Library/LaunchAgents/homebrew.mxcl.memcached.plist"
-alias memcached-restart="launchctl unload ~/Library/LaunchAgents/homebrew.mxcl.memcached.plist;launchctl load ~/Library/LaunchAgents/homebrew.mxcl.memcached.plist"
-alias hosts='sudo atom /private/etc/hosts'
-alias weinre='/usr/local/bin/weinre --boundHost -all-'
+alias hosts='sudo code /private/etc/hosts'
 alias dbsetup='rake db:drop db:create db:migrate db:seed db:test:prepare --trace'
-alias jekyll='bundle exec jekyll serve'
 
 alias ll='ls -als'
 alias lt='ls -alst'
+
+# Angular 4 CLI
+
+alias ngComp='ng generate component'
+alias ngMod='ng generate module'

@@ -19,5 +19,5 @@ if [ -n `which git` ]; then
     . ./.git-completion.bash
   fi
 
-  source ./.bash_git
+  source ~/Repositories/.dotfiles/.bash_git
 fi

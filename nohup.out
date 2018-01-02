@@ -1,0 +1,9 @@
+nohup: redis-stop: nohup: No such file or directory
+mongo-stop: No such file or directory
+nohup: psql-stop: No such file or directory
+nohup: mongo-stop: No such file or directory
+nohup: psql-stop: No such file or directory
+nohup: redis-stop: No such file or directory
+nohup: mongo-stop: No such file or directory
+nohup: psql-stop: No such file or directory
+nohup: mongo-stop: No such file or directory
