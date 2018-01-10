@@ -14,6 +14,7 @@ source $DF_BASE_PATH/postgres.sh
 source $DF_BASE_PATH/redis.sh
 source $DF_BASE_PATH/mongo.sh
 source $DF_BASE_PATH/rabbitmq.sh
+source $DF_BASE_PATH/pedanco.sh
 
 # Seinfeld (see https://github.com/collectiveidea/seinfeld.sh)
 # source ~/.dotfiles/seinfeld.sh/seinfeld.sh
