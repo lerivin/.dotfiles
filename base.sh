@@ -15,6 +15,8 @@ source $DF_BASE_PATH/redis.sh
 source $DF_BASE_PATH/mongo.sh
 source $DF_BASE_PATH/rabbitmq.sh
 source $DF_BASE_PATH/pedanco.sh
+source $DF_BASE_PATH/docker.sh
+source $DF_BASE_PATH/docker-drupal.sh
 
 # Seinfeld (see https://github.com/collectiveidea/seinfeld.sh)
 # source ~/.dotfiles/seinfeld.sh/seinfeld.sh
